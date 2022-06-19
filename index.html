@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="img/foto-perfil.png">
+    <title>Meu Portfólio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <meta name="viewport" content="width=device-width, initical-scale=1">
+</head>
+<body>
+   <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+   <header class="header-menu">
+    <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
+   <nav>
+        <!-- O Ul e o OL são as listas -->
+       <ul class="lista-menu">
+           <li>
+               <a href="#formacao">Formação</a>
+           </li>
+           <li>
+               <a href="#portfolio">Portfólio</a>
+           </li>
+           <li>
+               <a href="#contato">Contato</a>
+           </li>
+       </ul>
+       <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido,  Onde vão ficar os nossos links de acesso da pagina -->
+    </nav> 
+    <!--O Header faz parte da semântica, de criar a "cabeçalho" do site.--> 
+    </header> 
+   <main>
+   <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
+   <section class="principal">
+       <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
+        <article class="subcontainer-principal container">
+           <div>
+               <img class="foto" src="img/Denise MV.jpeg" alt="Perfil Mulher Negra">
+           </div>
+           <div>
+               <h1 class="nome-completo">Denise Matos</h1>
+               <h2 class="profissao">Desenvolvedora Front-end</h2>
+           </div>
+           <div>
+            Resido em São Paulo Capital, tenho 34 anos, sou graduada no curso de Serviço Social.<br>
+            Aprecio a área da tecnologia e, resolvi realizar transição de carreira para essa área,<br> estou aprendendo programação front-end e back-end pelo BootCamp Ciclo Formativo<br> PretaLab e WomakersCode-ConstruDelas, me identifico com front-end.</p>
+           </div>
+           <div style="display: inline_block"><br>
+            <img align="center" alt="De-Js" height="30" width="60"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            <img align="center" alt="De" height="30" width="60"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+            <img align="center" alt="De-HTML" height="30" width="60"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+            <img align="center" alt="De-CSS" height="30" width="60"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+            </div>
+        </article>
+   </section>
+   <section>
+           <article id="formacao" class="container article-lista">
+               <div>
+                   <h3 class="topico-principal">Formação</h3>
+               </div>
+               <div class="lista-item">
+                   <ul>
+                       <li>
+                           <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                           <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
+                           <p class="lista-descricao">Este bootcamp visa equiparar a equidade de genêro e raça na área
+                            da tecnologia, voltado para mulheres,possui uma metodologia autoral que engloba o
+                            desenvolvimento do conhecimento técnico, autogestão e soft skills das estudantes,
+                            aprendo sobre lógica de programação, GitHub, HTML5 e CSS3, JavaScript, React, Pilar de
+                            Autoconhecimento.</p>
+                       </li>
+                       <li>
+                           <p class="lista-titulo">Ciclo formativo Educação</p>
+                           <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Formação Acadêmica</a>
+                           <p class="lista-descricao">UNINOVE- Bacharel em Serviço Social- Concluído<br>Univ. Anhembi
+                            Morumbi- Pós-graduação Lato Sensu
+                            - Especialização<br> Saúde Pública Com Ênfase Em Saúde Da Família - Concluído.</p>
+                       </li>
+                   </ul>
+               </div>
+           </article>
+   </section>
+
+   <section class="wrapper-portfolio">
+       <article id="portfolio" class="container article-lista">
+           <div>
+               <h3 class="topico-principal">Blog</h3>
+           </div>
+           <div class="lista-item">
+               <ul>
+                   <li>
+                       <p class="lista-titulo">Mulheres que fazem história</p>
+                       <p class="subtitulo-lista">Revelo</p>
+                       <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+                       <p class="lista-descricao">Mulheres que atuam na área da tecnologia e contribui e
+                        desenvolvem na formação de outras mulheres, para diminuir a diferença de gênero e raça
+                        no mercado de TI brasileiro.</p>
+                   </li>
+                   <li>
+                       <p class="lista-titulo">Quem Coda BR</p>
+                       <p class="subtitulo-lista">Pretalab</p>
+                       <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
+                       <p class="lista-descricao">Em 2017, a PretaLab realizou um levantamento que ofereceu subsídios
+                        para refletir sobre a importância dos estímulos para que as mulheres negras e indígenas
+                        ocupem cada vez mais espaços nas áreas de tecnologia e inovação.</p>
+                   </li>
+               </ul>
+           </div>
+       </article>
+   </section>
+</main>
+ <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+ <footer class="footer" id="contato">
+   <div class="container">
+       <ul class="lista-footer">
+           <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:matosdenise1987@gmail.com" target="_blank"class="links">matosdenise1987@gmail.com</a></li>
+           <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/denisematosvalerio/" target="_blank" class="links">Denise-Matos</a></li>
+           <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/Denise-Valerio" target="_blank" class="links">Denise-Valerio</a></li>
+       </ul>
+   </div>
+</footer>
+</body>
+</html>

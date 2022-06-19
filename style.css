@@ -1,0 +1,223 @@
+.foto {
+    width: 200px;
+    padding-top: 120px;    
+}
+
+/* primeiras propriedades: */
+* {
+    /* define a área de margem nos quatro lados do elemento */
+    margin: 0; 
+    /* distância entre o conteúdo de um elemento e suas bordas */
+    padding: 0;
+    /* para configurar uma ou mais das propriedades de contorno */
+    outline: 0;
+}
+
+body{
+    /* Definindo a fonte de todo nosso body */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    /* retirando as bolinhas das nossas listas */
+    list-style: none;
+}
+
+.header-menu{
+    /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+    display: flex;
+    position: fixed; /*Deixa o nosso header fixo*/
+    width: 100%; /*Largura*/
+    padding: 8px; /*Espaçamento dos 4 lados*/
+    padding-bottom: 32px; /*Espaçamento inferior*/
+    padding-top: 32px;/*Espaçamento superior*/
+    height: 60px;
+    background-color: #724796;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
+    width: 50%;
+    align-items: center;
+}
+
+/*Pegando os itens com tag a de dentro da nossa lista*/
+.lista-menu li>a {
+    color: #FFEFD5;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+}
+
+.container {
+    margin-right: auto; /*uma margem automática para todos os lados*/
+    margin-left: auto; /**/
+    max-width: 960px; /*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #191970;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    font-size: 20px;
+    line-height: 32px;
+    color: #0000CD;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color:  #724796;
+}
+
+.lista-item{ 
+    padding: 32px;
+    
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #363636;
+    font-weight: 300;
+}
+
+.wrapper-portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #724796;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration:none;
+    color: #FFEFD5;
+}
+
+.lista-footer li {
+    color: #FFEFD5;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 280px){
+    .container div {
+       
+    }
+
+    .subcontainer-principal {
+          
+    }
+
+    .foto {
+        width: 200px;
+        padding-top: 120px;    
+    }
+    .nome-completo {
+        height: 45px;
+    }
+    
+    .lista-menu{
+        display: flex;
+        justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1000px){
+    .container div {
+       
+    }
+
+    .subcontainer-principal {
+       
+    }
+    .foto {
+        width: 200px;
+        padding-top: 120px;    
+    }
+
+    .nome-completo {
+        height: 45px;
+    }
+    .lista-menu{
+        display: flex;
+        justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
+        width: 100%;
+        align-items: center;
+    }
+    
+}
+
