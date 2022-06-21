@@ -122,7 +122,15 @@ li {
 
 .lista-local {
     font-size: 18px;
-    color: #2F80ED;
+    color: #008B8B;
+}
+
+.lista-local:hover {
+    color:deeppink;
+}
+
+.lista-local:active {
+    color: #00FFFF;	
 }
 
 .lista-descricao {
