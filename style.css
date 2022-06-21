@@ -173,21 +173,17 @@ li {
 
 @media (max-width: 280px){
     .container div {
-       
     }
 
-    .subcontainer-principal {
-          
+    .subcontainer-principal {      
     }
-
     .foto {
         width: 200px;
         padding-top: 120px;    
     }
     .nome-completo {
         height: 45px;
-    }
-    
+    }   
     .lista-menu{
         display: flex;
         justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
@@ -197,18 +193,14 @@ li {
 }
 
 @media screen and (min-width: 280px) and (max-width: 1000px){
-    .container div {
-       
+    .container div {       
     }
-
-    .subcontainer-principal {
-       
+    .subcontainer-principal {       
     }
     .foto {
         width: 200px;
         padding-top: 120px;    
     }
-
     .nome-completo {
         height: 45px;
     }
@@ -217,7 +209,6 @@ li {
         justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
         width: 100%;
         align-items: center;
-    }
-    
+    }    
 }
 
