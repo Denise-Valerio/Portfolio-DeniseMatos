@@ -1,6 +1,7 @@
 .foto {
     width: 200px;
-    padding-top: 120px;    
+    padding-top: 120px;  
+  
 }
 
 /* primeiras propriedades: */
@@ -11,6 +12,7 @@
     padding: 0;
     /* para configurar uma ou mais das propriedades de contorno */
     outline: 0;
+    
 }
 
 body{
@@ -51,7 +53,7 @@ li {
 
 /*Pegando os itens com tag a de dentro da nossa lista*/
 .lista-menu li>a {
-    color: #FFEFD5;
+    color: #FFB6C1;
     font-size: 18px;
     text-decoration: inherit;
 }
@@ -69,7 +71,9 @@ li {
     padding-right: 10px; /* Espaçamento direito*/
     padding-left: 10px; /*Espaçamento esquerdo*/
     width: 100%; /*largura*/
+    
 }
+
 
 .subcontainer-principal {
     display: flex;
@@ -77,19 +81,37 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .nome-completo {
     font-size: 36px;
-    color: #191970;
+    color: #724796;
     font-weight: 700;
     height: 45px;
-}
+    animation: denise 1s infinite;
+    will-change: left; top;
+    
+} 
+/*
+
+@keyframes denise  { 
+    0% {
+        background-color: #FFB6C1;	
+
+    }	
+    100% {
+        background-color: #EAEAEA;
+                                          	
+    }
+} */
 
 .profissao{
     font-size: 20px;
     line-height: 32px;
-    color: #0000CD;
+    color: #4169E1;
+    animation: denise 1s infinite;
+    will-change: left; top;
 }
 
 .article-lista {
@@ -106,7 +128,7 @@ li {
 
 .lista-item{ 
     padding: 32px;
-    
+       
 }
 
 .lista-item ul li {
@@ -158,6 +180,7 @@ li {
     height: 30vh;
     display: flex;
     align-items: center;
+    
 }
 
 .estilo-icon {
@@ -171,7 +194,7 @@ li {
 }
 
 .lista-footer li {
-    color: #FFEFD5;
+    color: #FFB6C1;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
@@ -179,7 +202,8 @@ li {
     align-items: center;
 }
 
-@media (max-width: 280px){
+
+@media (max-width: 280px) and (max-width: 1000px){
     .container div {
     }
 
@@ -220,3 +244,7 @@ li {
     }    
 }
 
+.logo {  
+    width: 60px;
+    height: 60px; 
+}
